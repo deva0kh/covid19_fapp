@@ -1,7 +1,8 @@
 
-import 'package:covid19_test/models/bluetooth.dart';
+import 'package:covid19_test/views/bluetooth.dart';
 import 'package:flutter/material.dart';
 import 'package:covid19_test/style/global.dart';
+import 'package:covid19_test/tests/db_tests.dart';
 
 
 class Cards {
@@ -44,6 +45,10 @@ class Cards {
                   context,
                   MaterialPageRoute(builder: (context) => Bluetooth()),
                 );
+                else if (menuItem == "Status"){
+                  DbTesting dbtest =new DbTesting();
+                  dbtest.insertTest();
+               }
               },
             ),
           )

@@ -1,6 +1,6 @@
-import 'package:covid19_test/models/corana_info.dart';
+import 'package:covid19_test/functions/corana_info.dart';
 import 'package:flutter/material.dart';
-import 'package:covid19_test/models/menu.dart';
+import 'package:covid19_test/functions/menu.dart';
 import 'package:covid19_test/style/global.dart';
 
 class HomePage extends StatelessWidget {

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:covid19_test/models/cards.dart';
+import 'package:covid19_test/functions/cards.dart';
 
 class Menu {
 

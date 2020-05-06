@@ -1,6 +1,6 @@
 import 'package:covid19_test/models/case_ma.dart';
 import 'package:flutter/material.dart';
-import 'package:covid19_test/models/cards.dart';
+import 'package:covid19_test/functions/cards.dart';
 
 class CoronaInfo {
 
